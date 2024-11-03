@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <style>
+        /* Estilos aquí */
+    </style>
+</head>
+<body>
+
+    <section class="container">
+        <!-- Tabla de productos -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Productos</th>
+                    <th>Cantidad</th>
+                    <th>Unidad</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPhone 13 Pro <br> Ref: XXXX999YY</td>
+                    <td class="quantity-control">
+                        <button class="btn-minus">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="btn-plus">+</button>
+                    </td>
+                    <td>1099,99€</td>
+                    <td class="total-price">1099,99€</td>
+                </tr>
+                <tr>
+                    <td>Cargador <br> Ref: XXXX999YY</td>
+                    <td class="quantity-control">
+                        <button class="btn-minus">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="btn-plus">+</button>
+                    </td>
+                    <td>49,99€</td>
+                    <td class="total-price">49,99€</td>
+                </tr>
+                <tr>
+                    <td>Funda de piel <br> Ref: XXXX999YY</td>
+                    <td class="quantity-control">
+                        <button class="btn-minus">-</button>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                        <button class="btn-plus">+</button>
+                    </td>
+                    <td>79,99€</td>
+                    <td class="total-price">79,99€</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Botón Enviar al Carrito -->
+        <button class="btn" id="addToCart">Enviar al Carrito</button>
+
+        <!-- Total -->
+        <div class="total-container">
+            <h3>Total</h3>
+            <div class="total-item">
+                <strong>TOTAL</strong>
+                <strong id="total-price">0,00€</strong>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript aquí
+    </script>
+</body>
+</html>
